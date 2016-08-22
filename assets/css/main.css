@@ -1619,8 +1619,8 @@
 	}
 
 	h2 {
-		font-size: 1.5em;
-		line-height: 1.5em;
+		font-size: 2em;
+		line-height: 2em;
 	}
 
 	h3 {
@@ -2086,7 +2086,7 @@
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 20%;
 				width: 100%;
 			}
 
@@ -2449,12 +2449,12 @@
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			font-size: 1.5em;
 			margin: 0 0 0.5em 0;
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 1em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -2527,7 +2527,7 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 8.25em;
 		}
 
 /* Footer */

@@ -22,7 +22,8 @@
 				<div class="inner">
 					<a href="mailto:jfrieste@gmail.com" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
 					<h1><strong>Jon Friestedt</strong></h1>
-					<a href="mailto:jfrieste@gmail.com">jfrieste@gmail.com</a>
+					<a href="mailto:jfrieste@gmail.com">jfrieste@gmail.com</a><br />
+					<a href="https://www.linkedin.com/in/jonfriestedt">My Resume</a>
 				</div>
 			</header>
 
@@ -42,23 +43,44 @@
 					<section id="two">
 						<h2>Recent Work</h2>
 						<div class="row">
-							<article class="6u 12u$(xsmall) work-item">
+							<article class="12u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/Smartypants.png" class="image fit thumb"><img src="images/fulls/Smartypants.png" alt="Smartypants" /></a>
 								<div class="work-item-info">
 									<h3>Smartypants</h3>
 									<p>A single-page Rails/React clone of Genius.com.</p>
+									<a href="https://smartypants-app.herokuapp.com">View Live</a> | <a href="https://github.com/jfriestedt/Smartypants">View on Github</a>
+									<ul>
+										<li>Utilizes a series of DOM interactions and event listeners to enable intuitive user interactions specific to the user’s location on the page.</li>
+										<li>Keeps code DRY and considers readability by implementing polymorphic model associations on the backend and modular React components on the frontend.</li>
+										<li>Supports image file upload through Paperclip and AWS S3 cloud storage.</li>
+									</ul>
 								</div>
 							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="Street Dodger" /></a>
+
+							<article class="12u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/StreetDodger.png" class="image fit thumb"><img src="images/fulls/StreetDodger.png" alt="Street Dodger" /></a>
 								<h3>Street Dodger</h3>
 								<p>An arcade-style rhythm game inspired by NYC rush hour. Built with HTML5 Canvas and JavaScript.</p>
+								<a href="https://jfriestedt.github.io/Street-Dodger/">View Live</a> | <a href="https://github.com/jfriestedt/Street-Dodger">View on Github</a>
+								<ul>
+									<li>Procedurally generates enemies using hand-coded sprite animation and a random-spritesheet closure to dynamically assign sprite data and generate enemies.</li>
+									<li>Scores player’s performance by detecting collisions and calculating overlap of HTML5 Canvas elements in real time.</li>
+									<li>Uses window timing event closures to escalate game difficulty by increasing the speed of oncoming enemies.</li>
+								</ul>
 							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
+
+							<article class="12u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/Monorail.png" class="image fit thumb"><img src="images/fulls/Monorail.png" alt="" /></a>
 								<h3>Monorail</h3>
 								<p>A lightweight MVC framework built with Ruby.</p>
+								<a href="https://github.com/jfriestedt/Street-Dodger">View on Github</a>
+									<ul>
+										<li>Passes down convenient render & redirect actions to resource controllers by way of inheritance from a provided base controller.</li>
+										<li>Provided router constructs resource routes from a single draw command, allowing easy delegation to appropriate controllers.</li>
+										<li>Enables the use of ERB views to dynamically render HTML content based on Ruby scripting.</li>
+									</ul>
 							</article>
+
 						</div>
 						<ul class="actions">
 							<!-- <li><a href="#" class="button">Full Portfolio</a></li> -->
