@@ -12,8 +12,9 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<link rel="stylesheet" href="assets/css/font-mfizz/font-mfizz.css">
 		<link rel="stylesheet" href="assets/css/devicon-master/devicon.min.css">
+		<link rel="shortcut icon" href="favicon.ico"/>
+
 	</head>
 	<body id="top">
 
@@ -21,9 +22,9 @@
 			<header id="header">
 				<div class="inner">
 					<a href="mailto:jfrieste@gmail.com" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>Jon Friestedt</strong></h1>
-					<a href="mailto:jfrieste@gmail.com">jfrieste@gmail.com</a><br />
-					<a href="https://drive.google.com/file/d/0B8c3lsNiVsgcdWs3ZzgyR1d6MTg/view">My Resume</a>
+					<h1 class="name"><strong>Jon Friestedt</strong></h1>
+					<a class="resume header-links icon fa-file-text-o" href="assets/pdfs/Resume.pdf"> Resume</a>
+					<a class="header-links icon fa-envelope-o" href="mailto:jfrieste@gmail.com"> jfrieste@gmail.com</a>
 				</div>
 			</header>
 
@@ -35,7 +36,7 @@
 						<header class="major">
 							<h2>I'm a web developer with a skillset in Ruby, Rails, React.js, and JavaScript.</h2>
 						</header>
-						<p>I'm hardly happy these days unless I'm building an awesome web app, creating a slick forward-thinking UI, or hunting down bugs (...or Pokémon). The challenges presented by building the modern web satisfy a penchant for problem solving and computers that I've had since a young age.</p>
+						<p>I'm most happy these days when I'm building an awesome web app, creating a slick forward-thinking UI, or hunting down bugs (or Pokémon). The challenges presented by building the modern web satisfy a penchant for problem solving and computers that I've had since a young age.</p>
 						<p>In my spare time, I also enjoy making and enjoying music and theatre art.</p>
 					</section>
 
@@ -43,13 +44,13 @@
 					<section id="two">
 						<h2>Recent Work</h2>
 						<div class="row">
-							<article class="9u$ 12u$(xsmall) work-item">
+							<article class="12u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/Smartypants.png" class="image fit thumb"><img src="images/fulls/Smartypants.png" alt="Smartypants" /></a>
 								<div class="work-item-info">
 									<h3>Smartypants</h3>
 									<p>A single-page Rails/React clone of Genius.com.</p>
 									<a href="http://smartypants.jonfriestedt.com">View Live</a> | <a href="https://github.com/jfriestedt/Smartypants">View on Github</a>
-									<ul>
+									<ul class="work-item-bullets">
 										<li>Utilizes a series of DOM interactions and event listeners to enable intuitive user interactions specific to the user’s location on the page.</li>
 										<li>Keeps code DRY and considers readability by implementing polymorphic model associations on the backend and modular React components on the frontend.</li>
 										<li>Supports image file upload through Paperclip and AWS S3 cloud storage.</li>
@@ -57,24 +58,24 @@
 								</div>
 							</article>
 
-							<article class="9u$ 12u$(xsmall) work-item">
+							<article class="12u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/StreetDodger.png" class="image fit thumb"><img src="images/fulls/StreetDodger.png" alt="Street Dodger" /></a>
 								<h3>Street Dodger</h3>
 								<p>An arcade-style rhythm game inspired by NYC rush hour. Built with HTML5 Canvas and JavaScript.</p>
 								<a href="https://jfriestedt.github.io/Street-Dodger/">View Live</a> | <a href="https://github.com/jfriestedt/Street-Dodger">View on Github</a>
-								<ul>
+								<ul class="work-item-bullets">
 									<li>Procedurally generates enemies using hand-coded sprite animation and a random-spritesheet closure to dynamically assign sprite data and generate enemies.</li>
 									<li>Scores player’s performance by detecting collisions and calculating overlap of HTML5 Canvas elements in real time.</li>
 									<li>Uses window timing event closures to escalate game difficulty by increasing the speed of oncoming enemies.</li>
 								</ul>
 							</article>
 
-							<article class="9u$ 12u$(xsmall) work-item">
+							<article class="12u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/Monorail.png" class="image fit thumb"><img src="images/fulls/Monorail.png" alt="" /></a>
 								<h3>Monorail</h3>
 								<p>A lightweight MVC framework built with Ruby.</p>
 								<a href="https://github.com/jfriestedt/Street-Dodger">View on Github</a>
-									<ul>
+									<ul class="work-item-bullets">
 										<li>Passes down convenient render & redirect actions to resource controllers by way of inheritance from a provided base controller.</li>
 										<li>Provided router constructs resource routes from a single draw command, allowing easy delegation to appropriate controllers.</li>
 										<li>Enables the use of ERB views to dynamically render HTML content based on Ruby scripting.</li>
@@ -116,7 +117,7 @@
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="https://drive.google.com/file/d/0B8c3lsNiVsgcdWs3ZzgyR1d6MTg/view" class="icon fa-file-text-o"><span class="label">Resume</span></a></li>
+						<li><a href="assets/pdfs/Resume.pdf" class="icon fa-file-text-o"><span class="label">Resume</span></a></li>
 						<li><a href="https://github.com/jfriestedt" class="icon fa-github"><span class="label">Github</span></a></li>
 						<li><a href="https://www.linkedin.com/in/jonfriestedt" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
 						<li><a href="mailto:jfrieste@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
